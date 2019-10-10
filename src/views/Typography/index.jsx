@@ -54,6 +54,34 @@ class Typography extends Component {
                   sm={3}
                   xs={12}
                 >
+                  <p>&ensp;&ensp;
+<b>HTML
+Sintaksis</b><br/><ul><li>
+Jangan memberi huruf besar pada tag, termasuk DOCTYPE.</li>
+<li>Gunakan tab lunak dengan dua spasi — itu satu-satunya cara untuk memastikan kode menghasilkan hal yang sama di lingkungan apa pun.</li>
+<li> Elemen bersarang harus diindentasi sekali (dua spasi).</li>
+<li> Selalu gunakan tanda kutip ganda, tidak pernah tanda kutip tunggal, pada atribut.</li>
+<li> Jangan menyertakan garis miring pada elemen yang menutup sendiri — spesifikasi HTML5 mengatakan bahwa elemen tersebut opsional.</li>
+<li> Jangan hilangkan tag penutup opsional (mis.</li></ul>
+</p>
+
+<div>
+ Contoh:<hr/>
+   <xmp>
+
+<!doctype html>
+<html>
+  <head>
+    <title>Page title</title>
+  </head>
+  <body>
+    <img src="images/company-logo.png" alt="Company">
+    <h1 class="hello-world">Hello, world!</h1>
+  </body>
+</html>
+</xmp>
+</div>
+                  
                   <TypographyComponent variant="caption">
                     {key}
                   </TypographyComponent>

@@ -54,8 +54,7 @@ class Typography extends Component {
                   sm={3}
                   xs={12}
                 >
-                  <iframe src="https://detik.com" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe> </div>
-   
+                 
                   
                   <TypographyComponent variant="caption">
                     {key}
@@ -74,6 +73,12 @@ class Typography extends Component {
             ))}
           </Grid>
         </div>
+
+<div>
+Tes
+
+ <iframe src="https://detik.com" style="border:0px #ffffff none;" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe> </div>
+   
       </DashboardLayout>
     );
   }

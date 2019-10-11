@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function P
 Icons() {
-  const classes = useStyles();
+  const classes = icons();
 
   return (
     <div>

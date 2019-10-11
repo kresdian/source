@@ -11,9 +11,8 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function P
-Icons() {
-  const classes = icons();
+export default function PaperSheet() {
+  const classes = useStyles();
 
   return (
     <div>

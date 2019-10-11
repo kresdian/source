@@ -1,23 +1,22 @@
-import React, { Component } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React from 'react';
+import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import { withStyles } from '@material-ui/core';
 
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      padding: theme.spacing(3, 2),
+    },
+  }),
+);
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    padding: theme.spacing(3, 2),
-  },
-}));
-class Icons extends Component {
-  render() {
-    const { classes } = this.props;
+export default function P
+Icons() {
+  const classes = useStyles();
 
-    return (
-      <DashboardLayout title="Icons">
-     
-     <div>
+  return (
+    <div>
       <Paper className={classes.root}>
         <Typography variant="h5" component="h3">
           This is a sheet of paper.
@@ -29,9 +28,3 @@ class Icons extends Component {
     </div>
   );
 }
-
-Icons.propTypes = {
-  classes: PropTypes.object.isRequired
-};
-
-export default withStyles(styles)(Icons);

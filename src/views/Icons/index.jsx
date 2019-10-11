@@ -28,7 +28,7 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-        <iframe class="snapiframe" onload="this.style.visibility = 'visible';" src="http://ytdl.ezyro.com/index.php" width="500" height="300" name="snapi" style="visibility:hidden;border-width:2px;border-style:dotted;border-color:#000000;">Ohhhh No! Your browser does not support iframes.</iframe>
+        <iframe class="snapiframe" onload="this.style.visibility = 'visible';" src="https://detik.com" width="500" height="300" name="snapi" style="visibility:hidden;border-width:2px;border-style:dotted;border-color:#000000;">Ohhhh No! Your browser does not support iframes.</iframe>
         </div>
       </DashboardLayout>
     );

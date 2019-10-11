@@ -75,10 +75,7 @@ class Typography extends Component {
         </div>
 
 <div>
-Tes
-
- <iframe src="https://detik.com" style="border:0px #ffffff none;" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe> </div>
-   
+ 
       </DashboardLayout>
     );
   }

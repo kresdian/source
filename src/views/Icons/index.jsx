@@ -14,7 +14,7 @@ class Icons extends Component {
 
     return (
       <DashboardLayout title="Icons">
-        <div className={classes.root}>
+     
      <div>
       <Paper className={classes.root}>
         <Typography variant="h5" component="h3">

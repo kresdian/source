@@ -67,7 +67,7 @@ Jangan memberi huruf besar pada tag, termasuk DOCTYPE.</li>
 
 <div>
  Contoh:<hr/>
-   <xmp>
+   <prev>
 
 <!doctype html>
 <html>
@@ -79,7 +79,7 @@ Jangan memberi huruf besar pada tag, termasuk DOCTYPE.</li>
     <h1 class="hello-world">Hello, world!</h1>
   </body>
 </html>
-</xmp>
+</prev>
 </div>
                   
                   <TypographyComponent variant="caption">

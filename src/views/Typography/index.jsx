@@ -54,8 +54,7 @@ class Typography extends Component {
                   sm={3}
                   xs={12}
                 >
-                 
-                  
+                              
                   <TypographyComponent variant="caption">
                     {key}
                   </TypographyComponent>
@@ -74,7 +73,6 @@ class Typography extends Component {
           </Grid>
         </div>
 
-<div>
  
       </DashboardLayout>
     );

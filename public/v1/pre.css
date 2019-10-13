@@ -1,3 +1,11 @@
+.docs-content {
+    font-family: -apple-system,system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    flex-shrink: 10;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+    width: 100%;
+}
 
 .bmenu, .bluesky, .phdr, .hdr {
 color : #0084b5;

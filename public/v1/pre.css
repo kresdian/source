@@ -7,17 +7,17 @@
     width: 100%;
 }
 
-.bmenu, .bluesky, .phdr, .hdr {
-color : #0084b5;
-text-shadow : #000000 1px 1px 2px; 
-background-color : #000406;
-background-image : url(http://athenk.wen.ru/images/bmenu.gif);
-background-repeat : repeat-x;
-background-position : 50% top;
-margin-top : 1px;
-margin-bottom : 1px;
-padding : 2px;
-border : 1px solid #005064;
+.phdr {
+padding: var(--pre-code-padding);
+    background: #253238;
+    color: #fff;
+    display: block;
+    overflow-x: auto;
+    border-radius: var(--pre-code-border-radius);
+    font-size: var(--pre-code-font-size);
+    line-height: var(--pre-code-line-height);
+    font-weight: 400;
+}
 }
 pre {
  white-space: pre-wrap;       /* css-3 */

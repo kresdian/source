@@ -164,6 +164,37 @@ Variasi pada tombol Desain Material.
 </pre>
 
 </div>
+
+Uji coba 
+
+  <script src="https://cdn.ckeditor.com/4.13.0/standard-all/ckeditor.js"></script>
+
+
+
+  <textarea cols="80" id="editor1" name="editor1" rows="10" data-sample-short>&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href=&quot;https://ckeditor.com/&quot;&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
+  <script>
+    CKEDITOR.plugins.addExternal('simplebox', 'https://ckeditor.com/docs/ckeditor4/4.13.0/examples/assets/plugins/simplebox/', 'plugin.js');
+
+    CKEDITOR.replace('editor1', {
+
+      // Add the Simple Box plugin.
+      extraPlugins: 'simplebox',
+
+      // Besides editor's main stylesheet load also simplebox styles.
+      // In the usual case they can be added to the main stylesheet.
+      contentsCss: [
+        'http://cdn.ckeditor.com/4.13.0/full-all/contents.css',
+        'https://ckeditor.com/docs/vendors/4.13.0/ckeditor/assets/plugins/simplebox/styles/contents.css'
+      ],
+
+      // Set height to make more content visible.
+      height: 500
+    });
+  </script>
+
+
+Tes 
+
 </div>
     </main>
 
